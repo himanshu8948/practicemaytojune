@@ -3,8 +3,12 @@ using namespace std;
 
 int a;
 int main(){
-    cout<<"enter the value of your leap year!";cin>>a;
+    cout<<"enter the value of your leap year!";
+    
+    cin>>a;
+   
     if ( a % 4 == 0 && a % 100 == 0)
+   
     { 
        if (a % 400 == 0){
 
