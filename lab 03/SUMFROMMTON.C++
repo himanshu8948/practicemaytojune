@@ -10,7 +10,7 @@ cin>>m;
 cout<<"enter your second term n till which the sum is required :";
 cin>>n;
 c = n-m;
-for( int i = 1 ; i <= c+1 ; i++ ){
+for( int i = 1 ; i <= c+1  ; i++ ){
    
     sum = sum+m;
     m += 1;
