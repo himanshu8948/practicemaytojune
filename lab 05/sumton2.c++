@@ -16,9 +16,7 @@ double sumton(double n,double sum,double fact){
 }
 int main(){
  
-double n,result,sum,fact;
-sum = 0;
-fact = 1;
+double n,result;
 
 cout<<"enter the value of n terms till which the sum is required:";
 cin>>n;
